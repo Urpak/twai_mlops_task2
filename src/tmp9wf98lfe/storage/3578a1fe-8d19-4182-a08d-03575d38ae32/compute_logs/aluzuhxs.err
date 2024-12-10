@@ -1,0 +1,27 @@
+[32m2024-12-10 16:25:04 +0100[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 3578a1fe-8d19-4182-a08d-03575d38ae32 - 450928 - LOGS_CAPTURED - Started capturing logs in process (pid: 450928).
+[32m2024-12-10 16:25:04 +0100[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 3578a1fe-8d19-4182-a08d-03575d38ae32 - 450928 - train_test_data - STEP_START - Started execution of step "train_test_data".
+[32m2024-12-10 16:25:04 +0100[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 3578a1fe-8d19-4182-a08d-03575d38ae32 - train_test_data - Loading file from: /home/kai/Git/twai_mlops_assignment2-main/src/tmp9wf98lfe/storage/bike_rental_features using PickledObjectFilesystemIOManager...
+[32m2024-12-10 16:25:04 +0100[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 3578a1fe-8d19-4182-a08d-03575d38ae32 - 450928 - train_test_data - LOADED_INPUT - Loaded input "bike_rental_features" using input manager "io_manager", from output "result" of step "bike_rental_features"
+[32m2024-12-10 16:25:04 +0100[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 3578a1fe-8d19-4182-a08d-03575d38ae32 - 450928 - train_test_data - STEP_INPUT - Got input "bike_rental_features" of type "DataFrame". (Type check passed).
+[32m2024-12-10 16:25:04 +0100[0m - dagster - [34mERROR[0m - [31m__ASSET_JOB - 3578a1fe-8d19-4182-a08d-03575d38ae32 - 450928 - train_test_data - STEP_FAILURE - Execution of step "train_test_data" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "train_test_data"::
+
+NameError: name 'train' is not defined
+
+Stack Trace:
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/dagster/_core/execution/plan/utils.py", line 54, in op_execution_error_boundary
+    yield
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/dagster/_utils/__init__.py", line 490, in iterate_with_context
+    next_output = next(iterator)
+                  ^^^^^^^^^^^^^^
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/dagster/_core/execution/plan/compute_generator.py", line 140, in _coerce_op_compute_fn_to_iterator
+    result = invoke_compute_fn(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/dagster/_core/execution/plan/compute_generator.py", line 128, in invoke_compute_fn
+    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
+                                                                    ^^^^^^^^^^^^^^^^^^
+  File "/home/kai/Git/twai_mlops_assignment2-main/src/bike_share/assets/train_test.py", line 27, in train_test_data
+    return train, test_data
+           ^^^^^
+[0m

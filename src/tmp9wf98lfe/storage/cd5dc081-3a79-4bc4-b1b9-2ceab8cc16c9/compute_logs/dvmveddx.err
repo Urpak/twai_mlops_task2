@@ -1,0 +1,35 @@
+[32m2024-12-10 15:09:17 +0100[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - cd5dc081-3a79-4bc4-b1b9-2ceab8cc16c9 - 303680 - LOGS_CAPTURED - Started capturing logs in process (pid: 303680).
+[32m2024-12-10 15:09:17 +0100[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - cd5dc081-3a79-4bc4-b1b9-2ceab8cc16c9 - 303680 - daily_bike_rental_demand - STEP_START - Started execution of step "daily_bike_rental_demand".
+[32m2024-12-10 15:09:17 +0100[0m - dagster - [34mERROR[0m - [31m__ASSET_JOB - cd5dc081-3a79-4bc4-b1b9-2ceab8cc16c9 - 303680 - daily_bike_rental_demand - STEP_FAILURE - Execution of step "daily_bike_rental_demand" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "daily_bike_rental_demand"::
+
+ValueError: No objects to concatenate
+
+Stack Trace:
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/dagster/_core/execution/plan/utils.py", line 54, in op_execution_error_boundary
+    yield
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/dagster/_utils/__init__.py", line 490, in iterate_with_context
+    next_output = next(iterator)
+                  ^^^^^^^^^^^^^^
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/dagster/_core/execution/plan/compute_generator.py", line 140, in _coerce_op_compute_fn_to_iterator
+    result = invoke_compute_fn(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/dagster/_core/execution/plan/compute_generator.py", line 128, in invoke_compute_fn
+    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
+                                                                    ^^^^^^^^^^^^^^^^^^
+  File "/home/kai/Git/twai_mlops_assignment2-main/src/bike_share/assets/daily_bike_rental_demand.py", line 11, in daily_bike_rental_demand
+    return DataLoader().load()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/kai/Git/twai_mlops_assignment2-main/src/bike_share/resources/data_loader.py", line 28, in load
+    return pd.concat(dataframes, ignore_index=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+         ^^^^^^^^^^^^^^
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kai/miniconda3/envs/bike-share/lib/python3.12/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+[0m
