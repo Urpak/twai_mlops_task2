@@ -20,6 +20,9 @@ def bike_rental_features(daily_bike_rental_demand: pd.DataFrame) -> pd.DataFrame
     data["cnt_lag_4"] = data["cnt"].shift(4)
     data["cnt_lag_5"] = data["cnt"].shift(5)
     data["cnt_lag_6"] = data["cnt"].shift(6)
+    #drop missing data
+    data= data.dropna()
+
     return data[columns]
 
 if __name__ == '__main__':

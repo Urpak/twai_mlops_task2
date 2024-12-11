@@ -41,17 +41,36 @@ def create_pipeline(estimator: Any) -> Pipeline:
 
 
 @asset()
-def linear_regression(train_data: pd.DataFrame, test_data: pd.DataFrame) -> None:
+def linear_regression(context: AssetExecutionContext, mlflow_session: MlflowSession, train_data: pd.DataFrame, test_data: pd.DataFrame) -> None:
     """Trains a linear regression model."""
-
     # TODO: Finish the linear regression asset.
+    with mlflow_session.start_run(context):
+        train_input = train_data.drop([TARGET], axis=1)
+        train_output = train_data[TARGET]
+
+        test_input = test_data.drop([TARGET], axis=1)
+        test_output = test_data[TARGET]
+
+        linear_pipeline = create_pipeline(LinearRegression())
+        linear_pipeline.fit(train_input, train_output)
+        linear_pipeline.score(test_input, test_output)
 
 
 @asset(automation_condition=AutomationCondition.eager())
-def xgboost_regressor(
+def xgboost_regressor(context: AssetExecutionContext, mlflow_session: MlflowSession,
     train_data: pd.DataFrame,
     test_data: pd.DataFrame,
 ) -> None:
     """Trains an XGBoost regressor model."""
 
     # TODO: Finish the XGBoost regressor asset.
+    with mlflow_session.start_run(context):
+        train_input = train_data.drop([TARGET], axis=1)
+        train_output = train_data[TARGET]
+
+        test_input = test_data.drop([TARGET], axis=1)
+        test_output = test_data[TARGET]
+
+        grid_search = GridSearchCV(create_pipeline(XGBRegressor(random_state=RANDOM_STATE)), XGBRegressorGridSearchConfig().grid_hyperparameters(), cv=3, scoring="neg_mean_absolute_error", verbose=2, n_jobs=-1)
+        grid_search.fit(train_input, train_output)
+        grid_search.score(test_input, test_output)

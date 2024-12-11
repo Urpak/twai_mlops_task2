@@ -1,0 +1,1 @@
+[('numeric', Pipeline(steps=[('scaler', StandardScaler())]), ['temp', 'hum', 'windspeed', 'cnt_lag_1', 'cnt_lag_2', 'cnt_lag_3', 'cnt_lag_4', 'cnt_lag_5', 'cnt_lag_6']), ('categorical', Pipeline(steps=[('encoder', OneHotEncoder())]), ['season', 'mnth', 'holiday', 'weekday', 'workingday', 'weathersit'])]

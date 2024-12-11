@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/23abaff87a7e47e3aaf4139fc32dc72d/artifacts
+end_time: 1733933258461
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 23abaff87a7e47e3aaf4139fc32dc72d
+run_name: stately-koi-967
+run_uuid: 23abaff87a7e47e3aaf4139fc32dc72d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733933191261
+status: 3
+tags: []
+user_id: kai

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/e94f9e0d5be14f458f3e5b54157dae04/artifacts
+end_time: 1733933258461
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: e94f9e0d5be14f458f3e5b54157dae04
+run_name: sassy-stoat-681
+run_uuid: e94f9e0d5be14f458f3e5b54157dae04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733933191261
+status: 3
+tags: []
+user_id: kai
