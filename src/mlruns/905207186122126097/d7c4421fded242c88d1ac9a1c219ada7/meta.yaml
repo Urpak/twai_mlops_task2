@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/d7c4421fded242c88d1ac9a1c219ada7/artifacts
+end_time: 1733935080159
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: d7c4421fded242c88d1ac9a1c219ada7
+run_name: 448e06a0-linear_regression
+run_uuid: d7c4421fded242c88d1ac9a1c219ada7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733935068898
+status: 3
+tags: []
+user_id: kai

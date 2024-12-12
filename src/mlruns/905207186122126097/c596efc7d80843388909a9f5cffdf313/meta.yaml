@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/c596efc7d80843388909a9f5cffdf313/artifacts
+end_time: 1734008709372
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: c596efc7d80843388909a9f5cffdf313
+run_name: tasteful-vole-126
+run_uuid: c596efc7d80843388909a9f5cffdf313
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734008648078
+status: 3
+tags: []
+user_id: kai

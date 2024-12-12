@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/7400c57f4fc04b2abd0b6eb945266297/artifacts
+end_time: 1734008709372
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 7400c57f4fc04b2abd0b6eb945266297
+run_name: bemused-goose-608
+run_uuid: 7400c57f4fc04b2abd0b6eb945266297
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734008648078
+status: 3
+tags: []
+user_id: kai

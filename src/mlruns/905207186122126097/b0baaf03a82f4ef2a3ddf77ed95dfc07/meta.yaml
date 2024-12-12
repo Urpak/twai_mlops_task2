@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/b0baaf03a82f4ef2a3ddf77ed95dfc07/artifacts
+end_time: 1734008709372
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: b0baaf03a82f4ef2a3ddf77ed95dfc07
+run_name: ambitious-toad-568
+run_uuid: b0baaf03a82f4ef2a3ddf77ed95dfc07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734008648078
+status: 3
+tags: []
+user_id: kai

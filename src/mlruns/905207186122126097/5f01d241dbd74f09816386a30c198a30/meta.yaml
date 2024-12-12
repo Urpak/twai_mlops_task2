@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/5f01d241dbd74f09816386a30c198a30/artifacts
+end_time: 1734009515563
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 5f01d241dbd74f09816386a30c198a30
+run_name: wise-dove-452
+run_uuid: 5f01d241dbd74f09816386a30c198a30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734009465629
+status: 3
+tags: []
+user_id: kai

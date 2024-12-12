@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/1031b3fafe1f4a6bb769806f4176cbe2/artifacts
+end_time: 1733934676845
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 1031b3fafe1f4a6bb769806f4176cbe2
+run_name: silent-foal-785
+run_uuid: 1031b3fafe1f4a6bb769806f4176cbe2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733934598568
+status: 3
+tags: []
+user_id: kai

@@ -15,8 +15,6 @@ class DataLoader(ConfigurableResource):
         """Loads CSV files from the specified directory and combines them into a single DataFrame."""
         # List all CSV files in the data directory
 
-        print('datablabla:' + self.data_directory)
-
         csv_files = glob.glob(os.path.join(self.data_directory, "*.csv"))
         #csv_files = glob.glob(os.path.join('/home/kai/Git/twai_mlops_assignment2-main/data', "*.csv"))
 

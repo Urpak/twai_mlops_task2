@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/48689c0234964790833be3c45d062972/artifacts
+end_time: 1733999611826
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 48689c0234964790833be3c45d062972
+run_name: victorious-lark-848
+run_uuid: 48689c0234964790833be3c45d062972
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733999552853
+status: 3
+tags: []
+user_id: kai

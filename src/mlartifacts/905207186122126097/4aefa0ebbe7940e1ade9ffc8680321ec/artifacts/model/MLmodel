@@ -1,0 +1,34 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.8
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.18.0
+model_size_bytes: 3751
+model_uuid: 497ccda381e34257bf312b596329c2dc
+run_id: 4aefa0ebbe7940e1ade9ffc8680321ec
+signature:
+  inputs: '[{"type": "long", "name": "season", "required": true}, {"type": "long",
+    "name": "mnth", "required": true}, {"type": "long", "name": "holiday", "required":
+    true}, {"type": "long", "name": "weekday", "required": true}, {"type": "long",
+    "name": "workingday", "required": true}, {"type": "long", "name": "weathersit",
+    "required": true}, {"type": "double", "name": "temp", "required": true}, {"type":
+    "double", "name": "hum", "required": true}, {"type": "double", "name": "windspeed",
+    "required": true}, {"type": "double", "name": "cnt_lag_1", "required": true},
+    {"type": "double", "name": "cnt_lag_2", "required": true}, {"type": "double",
+    "name": "cnt_lag_3", "required": true}, {"type": "double", "name": "cnt_lag_4",
+    "required": true}, {"type": "double", "name": "cnt_lag_5", "required": true},
+    {"type": "double", "name": "cnt_lag_6", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-12-12 10:32:33.091921'

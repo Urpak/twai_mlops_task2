@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/d4c3738b592043d2a11b4976628a9fbb/artifacts
+end_time: 1733935129732
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: d4c3738b592043d2a11b4976628a9fbb
+run_name: clean-eel-135
+run_uuid: d4c3738b592043d2a11b4976628a9fbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733935068899
+status: 3
+tags: []
+user_id: kai

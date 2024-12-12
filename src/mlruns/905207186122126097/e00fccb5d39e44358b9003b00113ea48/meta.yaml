@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/e00fccb5d39e44358b9003b00113ea48/artifacts
+end_time: 1733934676845
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: e00fccb5d39e44358b9003b00113ea48
+run_name: angry-fish-804
+run_uuid: e00fccb5d39e44358b9003b00113ea48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733934598568
+status: 3
+tags: []
+user_id: kai

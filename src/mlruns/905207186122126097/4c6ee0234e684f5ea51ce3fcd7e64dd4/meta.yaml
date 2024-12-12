@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/4c6ee0234e684f5ea51ce3fcd7e64dd4/artifacts
+end_time: 1734009915046
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 4c6ee0234e684f5ea51ce3fcd7e64dd4
+run_name: aec565c4-xgboost_regressor
+run_uuid: 4c6ee0234e684f5ea51ce3fcd7e64dd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734009854680
+status: 3
+tags: []
+user_id: kai

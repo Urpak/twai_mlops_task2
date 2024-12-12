@@ -1,0 +1,3 @@
+{
+  "Pipeline_score_test_input": "Pipeline.score(X=test_input, y=test_output)"
+}

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/292f09f742494cfbac4a656d34e37a1f/artifacts
+end_time: 1733934676845
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 292f09f742494cfbac4a656d34e37a1f
+run_name: honorable-crow-564
+run_uuid: 292f09f742494cfbac4a656d34e37a1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733934598568
+status: 3
+tags: []
+user_id: kai

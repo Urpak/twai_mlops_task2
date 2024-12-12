@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/d41bad1088564c9faca1221408d52313/artifacts
+end_time: 1734009515563
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: d41bad1088564c9faca1221408d52313
+run_name: mercurial-hen-817
+run_uuid: d41bad1088564c9faca1221408d52313
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734009465629
+status: 3
+tags: []
+user_id: kai

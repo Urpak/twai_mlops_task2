@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/2fa186a65ce047088b978355de8e4b28/artifacts
+end_time: 1733934676845
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 2fa186a65ce047088b978355de8e4b28
+run_name: bald-flea-309
+run_uuid: 2fa186a65ce047088b978355de8e4b28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733934598568
+status: 3
+tags: []
+user_id: kai

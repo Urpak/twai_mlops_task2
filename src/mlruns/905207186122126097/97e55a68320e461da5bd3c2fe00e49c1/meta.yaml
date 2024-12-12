@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/97e55a68320e461da5bd3c2fe00e49c1/artifacts
+end_time: 1733935129732
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 97e55a68320e461da5bd3c2fe00e49c1
+run_name: calm-ram-242
+run_uuid: 97e55a68320e461da5bd3c2fe00e49c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733935068899
+status: 3
+tags: []
+user_id: kai

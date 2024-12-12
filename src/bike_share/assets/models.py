@@ -40,7 +40,7 @@ def create_pipeline(estimator: Any) -> Pipeline:
     return pipeline
 
 
-@asset()
+@asset(automation_condition=AutomationCondition.eager())
 def linear_regression(context: AssetExecutionContext, mlflow_session: MlflowSession, train_data: pd.DataFrame, test_data: pd.DataFrame) -> None:
     """Trains a linear regression model."""
     # TODO: Finish the linear regression asset.

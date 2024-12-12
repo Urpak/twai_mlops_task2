@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/d2b04c931d2d4403b1473db5d52a8b21/artifacts
+end_time: 1733934464086
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: d2b04c931d2d4403b1473db5d52a8b21
+run_name: indecisive-ant-400
+run_uuid: d2b04c931d2d4403b1473db5d52a8b21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733934393279
+status: 3
+tags: []
+user_id: kai

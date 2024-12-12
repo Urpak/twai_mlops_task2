@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/82066b5b76a348218bbb3d31c9cf9b03/artifacts
+end_time: 1734009914793
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 82066b5b76a348218bbb3d31c9cf9b03
+run_name: colorful-swan-755
+run_uuid: 82066b5b76a348218bbb3d31c9cf9b03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734009854680
+status: 3
+tags: []
+user_id: kai

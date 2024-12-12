@@ -16,6 +16,7 @@ from bike_share.resources.mlflow_session import MlflowSession
 from bike_share.assets.daily_bike_rental_demand import daily_bike_rental_demand
 from bike_share.assets.bike_rental_features import bike_rental_features
 from bike_share.assets.train_test import train_test_data
+from bike_share.sensors.data_directory_sensor import data_directory_changes
 
 
 definitions = Definitions(
@@ -26,6 +27,7 @@ definitions = Definitions(
         linear_regression,
         xgboost_regressor
     ],
+    sensors=[data_directory_changes],
     resources={
         "data_loader": DataLoader(
             data_directory=DATA_DIRECTORY,

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905207186122126097/7b1287793ba647d0ab4dae6696ba220a/artifacts
+end_time: 1733987291198
+entry_point_name: ''
+experiment_id: '905207186122126097'
+lifecycle_stage: active
+run_id: 7b1287793ba647d0ab4dae6696ba220a
+run_name: placid-cub-416
+run_uuid: 7b1287793ba647d0ab4dae6696ba220a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733987239392
+status: 3
+tags: []
+user_id: kai
